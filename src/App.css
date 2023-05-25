@@ -1,0 +1,68 @@
+.parent-div{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advice-div{
+  background-color: var(--color-darkGrayishBlue);
+  text-align: center;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 48px;
+  border-radius: 12px;
+}
+
+#adviceNumber{
+  color: var(--color-neonGreen);
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+#quote{
+  color: var(--color-lightCyan);
+  font-size: 28px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.dice-div{
+  background-color: var(--color-neonGreen);
+  border-radius: 60px;
+  padding: 20px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.dice-div:hover{
+  box-shadow: 0px 0px 26px 2px var(--color-neonGreen);
+}
+
+@media only screen and (min-width: 920px) {
+
+  .advice-div{
+    width: 35%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  #divider {
+    content: url('./assets/pattern-divider-desktop.svg');
+    object-fit: contain;
+
+  }
+}
